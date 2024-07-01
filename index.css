@@ -1,0 +1,156 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 0px;
+  }
+  
+  .logo {
+    float: left;
+  }
+  
+  .logo h1 {
+    margin: 0;
+    /* float: left;
+    display: inline-block; */
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .hero {
+    background-image: url("images.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 0px 0;
+  }
+  
+  .hero h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .hero form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    margin-right: 5px;
+  }
+  
+  .hero select {
+    padding: 10px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    margin-right: 5px;
+  }
+  
+  .hero button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .services {
+    padding: 50px 0;
+  }
+  
+  .services h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .service-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .service-item {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .service-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .how-it-works {
+    padding: 50px 0;
+  }
+  
+  .how-it-works h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .how-it-works-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .how-it-works-item {
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .how-it-works-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
